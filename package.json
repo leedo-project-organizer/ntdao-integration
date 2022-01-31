@@ -1,0 +1,41 @@
+{
+  "name": "ntdao-integration",
+  "version": "0.1.0",
+  "description": "NTDao Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedoproject/ntdao-integration.git"
+  },
+  "author": "LeeDo Project",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leedoproject/ntdao-integration/issues"
+  },
+  "homepage": "https://github.com/leedoproject/ntdao-integration",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.3",
+    "event": "^1.0.0",
+    "evnt": "^0.1.0",
+    "express": "^4.17.1",
+    "find-config": "^1.0.0",
+    "http-server": "^14.0.0",
+    "jose": "^2.0.5",
+    "level-rocksdb": "^5.0.0",
+    "node-cron": "^3.0.0",
+    "node-lmdb": "^0.9.5",
+    "update-dotenv": "^1.1.1",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
